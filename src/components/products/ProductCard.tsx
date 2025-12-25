@@ -20,7 +20,7 @@ const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
   return (
     <Link
       to={`/product/${product.id}`}
-      className="nova-product-card block"
+      className="nova-product-card group block"
     >
       <div className="relative aspect-square overflow-hidden bg-muted/30">
         <img

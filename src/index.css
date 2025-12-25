@@ -160,9 +160,9 @@
            transition-all duration-300 transform hover:-translate-y-1;
   }
   
-  /* Product Card */
+  /* Product Card - Note: 'group' class must be applied directly in JSX */
   .nova-product-card {
-    @apply group bg-card rounded-xl overflow-hidden border border-border/30
+    @apply bg-card rounded-xl overflow-hidden border border-border/30
            hover:border-accent/30 transition-all duration-300 
            hover:shadow-lg;
   }
