@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ProductCard from "@/components/products/ProductCard";
+import ChatBot from "@/components/chatbot/ChatBot";
 import { products } from "@/data/products";
 
 const Index = () => {
@@ -120,6 +121,7 @@ const Index = () => {
       </main>
 
       <Footer />
+      <ChatBot />
     </div>
   );
 };
